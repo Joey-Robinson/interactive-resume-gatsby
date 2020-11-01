@@ -2,7 +2,7 @@ import React from "react"
 
 const SkillsLeadership = () => (
   <>
-    <div className="skills--leadership">
+    <div className="item skills--leadership">
       <h3>Leadership</h3>
     </div>
   </>
