@@ -1,11 +1,9 @@
 import React from "react"
 
-const Layout = ({ children, className }) => {
+const Layout = ({ children }) => {
   return (
     <>
-      <main>
-        <section className={className}>{children}</section>
-      </main>
+      <main>{children}</main>
     </>
   )
 }

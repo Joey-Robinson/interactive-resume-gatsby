@@ -2,17 +2,20 @@ import React from "react"
 import ContactLeft from "../components/contact/contact.left"
 import ContactRight from "../components/contact/contact.right"
 import Layout from "../components/layout"
+import HortizontalLine from "../components/line/horizontal.line"
+import VerticalLine from "../components/line/vertical.line"
 import SEO from "../components/seo"
+import Skills from "../components/skills/skills"
 
 const IndexPage = () => (
-  <Layout className="home">
+  <Layout>
     <SEO title="Home" />
-    <div>
+    <section className="home">
       <hgroup>
         <h1>Joey Robinson</h1>
         <h2>Trainer Resume</h2>
       </hgroup>
-      <div className="line" />
+      <HortizontalLine />
       <div className="contact">
         <div className="contact--left">
           <ContactLeft />
@@ -21,7 +24,11 @@ const IndexPage = () => (
           <ContactRight />
         </div>
       </div>
-    </div>
+    </section>
+    <section className="skills">
+      <VerticalLine />
+      <Skills />
+    </section>
   </Layout>
 )
 

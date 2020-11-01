@@ -2,7 +2,8 @@
   color: white;
   display: grid;
   grid-template-columns: 1fr;
-  width: 30vw;
+  grid-column: 1;
+  grid-row: 1;
   hgroup {
     margin: 0 0 0 1.5rem;
     h1 {
