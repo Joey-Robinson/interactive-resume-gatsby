@@ -3,7 +3,6 @@ import ContactLeft from "../components/contact/contact.left"
 import ContactRight from "../components/contact/contact.right"
 import Layout from "../components/layout"
 import HortizontalLine from "../components/line/horizontal.line"
-import VerticalLine from "../components/line/vertical.line"
 import SEO from "../components/seo"
 import Skills from "../components/skills/skills"
 
@@ -25,10 +24,7 @@ const IndexPage = () => (
         </div>
       </div>
     </section>
-    <section className="skills">
-      <VerticalLine />
-      <Skills />
-    </section>
+    <Skills />
   </Layout>
 )
 

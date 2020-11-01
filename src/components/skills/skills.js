@@ -1,5 +1,12 @@
 import React from "react"
+import SkillsCommunication from "./skills.communication"
+import SkillsLeadership from "./skills.leadership"
 
-const Skills = () => <div>qfinuwef</div>
+const Skills = () => (
+  <section className="skills">
+    <SkillsLeadership />
+    <SkillsCommunication />
+  </section>
+)
 
 export default Skills
